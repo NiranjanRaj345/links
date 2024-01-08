@@ -37,11 +37,11 @@ links:
     Icon-Class: fab fa-snapchat-ghost
 
     # YOUTUBE
-  - Name: YouTube
-    URL: https://www.youtube.com/channel
-    Username: UCmxJFe6LrfTIJlnXJwLlmBQ
-    Color: '#ff0000'
-    Icon-Class: fab fa-youtube
+  # - Name: YouTube
+  #   URL: https://www.youtube.com/channel
+  #   Username: UCmxJFe6LrfTIJlnXJwLlmBQ
+  #   Color: '#ff0000'
+  #   Icon-Class: fab fa-youtube
 
   # threads
   - Name: Threads
