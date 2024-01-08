@@ -35,20 +35,9 @@ layout: compress
                 <h1 class="text-5xl text-center font-semibold mt-3 mx-auto">{{ site.name }}</h1>
                 <hr class="my-2 opacity-25 hidden sm:block">
                 <p class="text-base break-words inline-flex font-normal mt-1.5 mx-auto text-center opacity-50 2xl:w-5/12 xl:w-5/12 md:w-6/12 sm:w-full justify-center hidden sm:block">{{ site.tagline }}</p>
-                <div class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 my-7 sm:my-0">
+                <div class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 my-7 sm:my-1">
                     {% unless site.links == "" %}
-                    {% for link in site.links %}
-                    {% if link.URL %}
-                    <a href="{{ link.URL }}{% if link.Username %}/{{ link.Username }}{% endif %}" target="_blank"
-                        rel="noopener noreferrer"
-                        class="text-white hover:opacity-75 font-semibold my-2.5 mx-5 px-5 py-1.5 rounded-md w-full sm:w-auto">
-                        <span style="color: {{ link.Text_Color }};">
-                            <i class="{{ link.Icon_Class }} align-middle"></i>
-                            <span class="mx-1.5 align-middle">{{ link.Name }}</span>
-                        </span>
-                    </a>
-                    {% endif %}
-                    {% endfor %}
+                    {% include links.html %}
                     {% endunless %}
                 </div>
             </span>
