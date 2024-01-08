@@ -1,0 +1,278 @@
+# YOUR NAME OR TITLE OF YOUR SITE
+name: Niranjan Rajkumar
+
+# YOUR BRAND/PERSONAL TAGLINE
+tagline: Hi, I'm Niranjan Rajkumar, a passionate tech enthusiast from TamilNadu, INDIA. With intermediate knowledge in programming languages, I love exploring new technologies and finding creative solutions.
+# I'm eager to connect with like-minded individuals and contribute to innovative projects.
+
+# YOUR/BRAND IMAGE URL
+Image_URL: https://en.gravatar.com/userimage/224707994/aaa5f8e3643f0766ab97cee5fcd1d451.png?size=200
+
+# CHANGE THE BACKGROUND IMAGE OF THE WEBSITE BY JUST ADDING THE IMAGE URL
+Cover_Image: https://source.unsplash.com/random
+
+# SOCIAL MEDIA
+links:
+    
+    # TWITTER
+  - Name: Twitter
+    URL: https://twitter.com
+    Username: Mr_silvershades
+    Color: '#1DA1F2'
+    Icon-Class: fab fa-twitter
+  
+    # TELEGRAM
+  - Name: Telegram
+    URL: http://telegram.me
+    Username: Niranjan_Rajkumar
+    Color: '#0088cc'
+    Icon-Class: fab fa-telegram-plane
+
+    # SNAPCHAT
+  - Name: Snapchat
+    URL: https://www.snapchat.com/add
+    Username: 'niranjan_342k5'
+    Color: '#FFFC00'
+    Text_Color: '#000000'
+    Icon-Class: fab fa-snapchat-ghost
+
+    # YOUTUBE
+  - Name: YouTube
+    URL: https://www.youtube.com/channel
+    Username: UCmxJFe6LrfTIJlnXJwLlmBQ
+    Color: '#ff0000'
+    Icon-Class: fab fa-youtube
+
+  # threads
+  - Name: Threads
+    URL: https://www.threads.net
+    Username: monk._.__
+    Color: '#000000'
+    Text_Color: '#ffffff'
+    Icon-Class: fas fa-at
+
+    # INSTAGRAM
+  - Name: Instagram
+    URL: https://www.instagram.com
+    Username: monk._.__
+    Color: '#DD2A7B'
+    Icon-Class: fab fa-instagram  
+
+    # EMAIL
+  - Name: Email
+    URL: 'mailto:'
+    Icon-Class: fas fa-envelope
+    Color: '#e17055'
+    Text_Color: '#ffffff'
+
+    # GITHUB
+  - Name: GitHub
+    URL: http://github.com
+    Username: NiranjanRaj345
+    Color: '#6e5494'
+    Icon-Class: fab fa-github
+
+    # WHATSAPP
+  - Name: WhatsApp
+    URL: https://wa.me
+    Username: '+919488114985'
+    Color: '#25d366'
+    Icon-Class: fab fa-whatsapp
+
+ # FACEBOOK
+  - Name: Facebook
+    URL: https://www.facebook.com
+    Username: NiranjanRaj345
+    Color: '#3b5998'
+    Icon-Class: fab fa-facebook
+   
+    # REDDIT
+  - Name: Reddit
+    URL: http://reddit.com/u
+    Username: pranav__-
+    Color: '#FF4500'
+    Icon-Class: fab fa-reddit-alien
+
+    # DISCORD
+  - Name: Discord
+    URL: 'https://discord.gg'
+    Username: 'Mr.Monk_#3391'
+    Icon-Class: fab fa-discord
+    Color: '#5865F2'
+    Text_Color: '#ffffff'
+
+    # SPOTIFY
+  - Name: Spotify
+    URL: http://open.spotify.com/user
+    Username: frr0m29k7gqij9206pp241ode
+    Color: '#1DB954'
+    Icon-Class: fab fa-spotify
+
+    # PINTEREST
+  - Name: Pinterest
+    URL: https://pinterest.com
+    Username: 'niranjan345'
+    Color: '#E60023'
+    Icon-Class: fab fa-pinterest
+  
+    # LINKEDIN
+  - Name: LinkedIn
+    URL: https://www.linkedin.com/in
+    Username: -niranjan
+    Color: '#2867B2'
+    Icon-Class: fab fa-linkedin-in
+
+    # STEAM
+  - Name: Steam
+    URL: https://steamcommunity.com/profiles/ 
+    Username: 76561199142461956/
+    Color: '#152e5d'
+    Icon-Class: fab fa-steam-symbol
+
+    # DEVIANTART
+  - Name: DeviantArt
+    URL: https://www.deviantart.com
+    Username: dark789shadow
+    Icon-Class: fab fa-deviantart
+    Color: '#05CC46'
+    Text_Color: '#ffffff'
+
+    # TWITCH
+  # - Name: Twitch
+  #   URL: 'https://twitch.tv'
+  #   Username: niranjanraj345
+  #   Icon-Class: fab fa-twitch
+  #   Color: '#9147fe'
+  #   Text_Color: '#ffffff'
+
+    #CLUBHOUSE
+  # - Name: Clubhouse
+  #   URL: https://www.clubhouse.com
+  #   Username: '@harsh98trivedi'
+  #   Color: '#f1c40f'
+  #   Icon-Class: fas fa-hand-paper -mt-0.5
+
+    # VIMEO
+  # - Name: Vimeo
+  #   URL: 'https://vimeo.com'
+  #   Username: harshtrivedi
+  #   Icon-Class: fab fa-vimeo-v
+  #   Color: '#1ab7ea'
+  #   Text_Color: '#ffffff'
+
+    # MESSENGER
+  # - Name: Messenger
+  #   URL: https://m.me
+  #   Username: theharshtrivedi
+  #   Color: '#006AFF'
+  #   Icon-Class: fab fa-facebook-messenger
+
+    # SIGNAL
+  # - Name: Signal
+  #   URL: https://signal.org
+  #   Username: '+19445240637'
+  #   Color: '#25d366'
+  #   Icon-Class: fab fa-whatsapp
+
+    # BEHANCE
+  # - Name: Behance
+  #   URL: https://www.behance.net
+  #   Username: harsh98trivedi
+  #   Color: '#1769ff'
+  #   Icon-Class: fab fa-behance
+
+    # DRIBBBLE
+  # - Name: Dribbble
+  #   URL: https://dribbble.com
+  #   Username: 
+  #   Color: '#ea4c89'
+  #   Icon-Class: fab fa-dribbble
+
+    # FIGMA
+  # - Name: Figma
+  #   URL: https://www.figma.com
+  #   Username: '@harshtrivedi'
+  #   Icon-Class: fab fa-figma
+  #   Color: '#ff2865'
+  #   Text_Color: '#ffffff'
+
+    # SOUNDCLOUD
+  # - Name: SoundCloud
+  #   URL: https://www.soundcloud.com
+  #   Username: harsh98trivedi
+  #   Color: '#FE5000'
+  #   Icon-Class: fab fa-soundcloud
+
+    # TIKTOK
+  # - Name: TikTok
+  #   URL: https://www.tiktok.com
+  #   Username: 
+  #   Color: '#FE2C55'
+  #   Icon-Class: fab fa-tiktok
+
+    # MEDIUM
+  # - Name: Medium
+  #   URL: 'https://medium.com'
+  #   Username: '@harsh98trivedi'
+  #   Icon-Class: fab fa-medium-m
+  #   Color: '#00ab6c'
+  #   Text_Color: '#ffffff'
+
+    # DEV.TO
+  # - Name: Dev.to
+  #   URL: 'https://dev.to'
+  #   Username: harsh98trivedi
+  #   Icon-Class: fab fa-dev
+  #   Color: '#ffffff'
+  #   Text_Color: '#000000'
+
+    # TUMBLR
+  # - Name: Tumblr
+  #   URL: https://www.tumblr.com
+  #   Username: 
+  #   Color: '#35465c'
+  #   Icon-Class: fab fa-tumblr
+
+    # CUSTOM LINK
+  # - Name: Blog
+  #   URL: https://harsh98trivedi.github.io/blog
+  #   Icon-Class: fas fa-link
+  #   Color: '#ffb142'
+  #   Text_Color: '#ffffff'
+
+  # - Name: Links
+  #   URL: https://github.com/harsh98trivedi/links
+  #   Icon-Class: fas fa-link
+  #   Color: '#d94869'
+  #   Text_Color: '#ffffff'
+
+    # BUY ME A COFFEE
+  - Name: BuyMeACoffee
+    URL: 'https://buymeacoffee.com'
+    Username: NiranjanRaj
+    Icon-Class: fas fa-mug-hot
+    Color: '#FFDD00'
+    Text_Color: '#000000'    
+
+# Compress
+compress_html:
+  clippings: all
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Icon
+
+# Base URL
+# baseurl: /links
+
+# Default Markdown Engine
+markdown: kramdown
