@@ -35,9 +35,43 @@ layout: compress
                 <h1 class="text-5xl text-center font-semibold mt-3 mx-auto">{{ site.name }}</h1>
                 <hr class="my-2 opacity-25 hidden sm:block">
                 <p class="text-base break-words inline-flex font-normal mt-1.5 mx-auto text-center opacity-50 2xl:w-5/12 xl:w-5/12 md:w-6/12 sm:w-full justify-center hidden sm:block">{{ site.tagline }}</p>
-                <div class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 my-7 sm:my-1">
+                <div class="grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 my-7 sm:my-1">
+                    <div class="sm:col-span-1">
+                        <!-- Place the image and name in the first column on smaller screens -->
+                        <div class="flex items-center justify-center">
+                            <img id="image"
+                                class="2xl:w-1/6 xl:w-1/6 lg:w-1/5 md:w-1/3 w-1/2 sm:w-1/2 rounded-full m-auto shadow-2xl lg:border-2 md:border-2 sm:border-2"
+                                src="https://images.weserv.nl/?url={{ site.Image_URL }}&h=150&w=150&fit=cover&mask=circle&l=9&output=webp&q=75"
+                                onError="this.onerror=null;this.src='https://github.com/{{ site.github_username }}.png';"
+                                alt="{{ site.name }}">
+                            <div class="ml-4">
+                                <h1 class="text-5xl text-center font-semibold">{{ site.name }}</h1>
+                                <p class="text-base break-words font-normal mt-1.5 text-center opacity-50 sm:hidden">{{ site.tagline }}</p>
+                            </div>
+                        </div>
+                    </div>
                     {% unless site.links == "" %}
-                    {% include links.html %}
+                    <div class="sm:col-span-2">
+                        <!-- Place the links in two columns on smaller screens -->
+                        <div class="grid sm:grid-cols-2 gap-4">
+                            {% for link in site.links %}
+                            {% if link.URL %}
+                            <a href="{{ link.URL }}{% if link.Username %}/{{ link.Username }}{% endif %}" target="_blank"
+                                rel="noopener noreferrer"
+                                class="flex justify-center">
+                                <button id="links"
+                                    class="links min-h-auto lg:m-5 md:5 sm:3.5 text-white hover:opacity-75 
+                                    font-semibold my-2.5 mx-2.5 px-5 py-1.5 rounded-md w-full sm:w-auto"
+                                    style="{% if link.Color %}background-color: {{link.Color}};-webkit-box-shadow: 0px 10px 25px 0px {{link.Color}}80;-moz-box-shadow: 0px 10px 25px 0px {{link.Color}}80;box-shadow: 0px 10px 25px 0px {{link.Color}}80;{% else %}color: white; border: 0.10rem solid #ffffff; -webkit-box-shadow: 0px 10px 25px 0px #ffffff80;-moz-box-shadow: 0px 10px 25px 0px #ffffff80;box-shadow: 0px 10px 25px 0px #ffffff80;{% endif %}">
+                                    <span id="link-content" {% if link.Text_Color %}style="color: {{link.Text_Color}};"{% endif %}>
+                                        <i class="{{link.Icon_Class}} align-middle"></i><span class="mx-1.5 align-middle sm:hidden">{{link.Name}}</span>
+                                    </span>
+                                </button>
+                            </a>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
                     {% endunless %}
                 </div>
             </span>
